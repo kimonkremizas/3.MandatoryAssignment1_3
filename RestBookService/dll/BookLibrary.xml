@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BookLibrary.Book">
+            <summary>
+            Book class with title, author, pageNumber and isbn13 properties.
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Book.#ctor">
+            <summary>
+            Default empty constructor
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Book.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            This constructor takes 4 properties as arguments.
+            </summary>
+            <param name="title">The book title (string with 2 or more characters)</param>
+            <param name="author">The book author (string).</param>
+            <param name="pageNumber">The book number of pages (int between 11 and 1000).</param>
+            <param name="isbn13">The book ISBN13 (string with exactly 13 characters).</param>
+        </member>
+        <member name="P:BookLibrary.Book.Title">
+            <summary>
+            Title property. Must contain at least 2 characters. (type:string)
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Book.Author">
+            <summary>
+            Author property. No constraints. (type:string)
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Book.PageNumber">
+            <summary>
+            Page Number property. Must be a number between 11 and 1000 inclusive. (type:int)
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Book.Isbn13">
+            <summary>
+            ISBN13 property. Must contain exactly 13 characters. (type:string)
+            </summary>
+        </member>
+    </members>
+</doc>
